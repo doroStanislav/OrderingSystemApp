@@ -1,7 +1,7 @@
-﻿using System;
+﻿using OrderingSystemApp;
+using System;
 using System.Collections.Generic;
 
-namespace OrderingSystem
-{
-
-};
+var orderingSystem = new OrderManagement();
+orderingSystem.DisplayMenu();
+orderingSystem.OrderDish();
